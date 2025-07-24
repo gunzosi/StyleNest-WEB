@@ -1,41 +1,38 @@
-# 🛍️ StyleNest – Web Frontend
+# 👗 StyleNest
 
-Welcome to the frontend of **StyleNest**, an elegant online fashion store built for modern users. This web interface allows users to browse, search, and purchase clothing and footwear seamlessly across devices.
+**Your Style, Your Nest.**
 
-## ✨ Features
+StyleNest is a modern fashion destination that offers a curated selection of stylish clothing and footwear for men and women. We combine trend-driven designs with everyday comfort, making it easier for you to express yourself through fashion.
 
-- 🏠 Beautiful homepage with promotional banners and featured items  
-- 🧾 Product listing with filters, categories, and search  
-- 👗 Detailed product page with image gallery, sizes, and colors  
-- 🛒 Shopping cart with item management and checkout  
-- 🔐 Authentication: sign up, login, logout  
-- 📱 Fully responsive and mobile-friendly design
+From streetwear to smart-casual, our collections are carefully chosen to reflect individuality, confidence, and versatility. Whether you're dressing up for an event or down for the weekend, StyleNest helps you look your best—effortlessly.
 
-## 🧰 Tech Stack
+---
 
-- **Frontend**: React + TypeScript  
-- **Styling**: Tailwind CSS  
-- **State Management**: Redux Toolkit  
-- **HTTP Client**: Axios  
-- **Build Tools**: Vite  
-- **Deployment**: Netlify / Vercel
+### 📥 How to Set Up the Full System
 
-## 🚀 Getting Started
+To run the full StyleNest platform, please clone the following repositories in this order:
 
-```bash
-# 1. Clone the repo
-git clone https://github.com/gunzosi/StyleNest-WEB.git
+1. **Backend API** – Manages all data, authentication, and business logic  
+   🔗 https://github.com/gunzosi/StyleNest
 
-# 2. Install dependencies
-cd StyleNest-WEB
-npm install
+2. **Web Frontend** – Customer-facing online shopping interface  
+   🔗 https://github.com/gunzosi/StyleNest-WEB
 
-# 3. Create environment file (.env)
-REACT_APP_API_URL=https://api.stylenest.com
+3. **Mobile App** – Flutter-based shopping app for iOS and Android  
+   🔗 https://github.com/gunzosi/StyleNest-MOBILE
 
-# 4. Run development server
-npm run dev
+Each repository includes its own instructions for installation and configuration.
 
-# 5. Build for production
-npm run build
-```
+---
+
+### 👥 Meet the Founders
+
+**Đặng Đại Dương** and **Phù Dũng Khánh**—two fashion enthusiasts with a shared vision to redefine everyday style—established StyleNest with one mission:  
+> To create a space where fashion meets authenticity.
+
+With backgrounds in design and commerce, they bring a fresh perspective to the online fashion experience, focusing on quality, personalization, and community.
+
+---
+
+🛒 **Explore now and discover your style at StyleNest.**  
+[www.stylenest.com](http://www.stylenest.com) _(example link)_
