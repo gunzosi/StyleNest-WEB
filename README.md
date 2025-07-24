@@ -1,12 +1,41 @@
-# React + Vite
+# 🛍️ StyleNest – Web Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the frontend of **StyleNest**, an elegant online fashion store built for modern users. This web interface allows users to browse, search, and purchase clothing and footwear seamlessly across devices.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🏠 Beautiful homepage with promotional banners and featured items  
+- 🧾 Product listing with filters, categories, and search  
+- 👗 Detailed product page with image gallery, sizes, and colors  
+- 🛒 Shopping cart with item management and checkout  
+- 🔐 Authentication: sign up, login, logout  
+- 📱 Fully responsive and mobile-friendly design
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React + TypeScript  
+- **Styling**: Tailwind CSS  
+- **State Management**: Redux Toolkit  
+- **HTTP Client**: Axios  
+- **Build Tools**: Vite  
+- **Deployment**: Netlify / Vercel
+
+## 🚀 Getting Started
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/gunzosi/StyleNest-WEB.git
+
+# 2. Install dependencies
+cd StyleNest-WEB
+npm install
+
+# 3. Create environment file (.env)
+REACT_APP_API_URL=https://api.stylenest.com
+
+# 4. Run development server
+npm run dev
+
+# 5. Build for production
+npm run build
+```
