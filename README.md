@@ -1,12 +1,38 @@
-# React + Vite
+# 👗 StyleNest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Your Style, Your Nest.**
 
-Currently, two official plugins are available:
+StyleNest is a modern fashion destination that offers a curated selection of stylish clothing and footwear for men and women. We combine trend-driven designs with everyday comfort, making it easier for you to express yourself through fashion.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+From streetwear to smart-casual, our collections are carefully chosen to reflect individuality, confidence, and versatility. Whether you're dressing up for an event or down for the weekend, StyleNest helps you look your best—effortlessly.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📥 How to Set Up the Full System
+
+To run the full StyleNest platform, please clone the following repositories in this order:
+
+1. **Backend API** – Manages all data, authentication, and business logic  
+   🔗 https://github.com/gunzosi/StyleNest
+
+2. **Web Frontend** – Customer-facing online shopping interface  
+   🔗 https://github.com/gunzosi/StyleNest-WEB
+
+3. **Mobile App** – Flutter-based shopping app for iOS and Android  
+   🔗 https://github.com/gunzosi/StyleNest-MOBILE
+
+Each repository includes its own instructions for installation and configuration.
+
+---
+
+### 👥 Meet the Founders
+
+**Đặng Đại Dương** and **Phù Dũng Khánh**—two fashion enthusiasts with a shared vision to redefine everyday style—established StyleNest with one mission:  
+> To create a space where fashion meets authenticity.
+
+With backgrounds in design and commerce, they bring a fresh perspective to the online fashion experience, focusing on quality, personalization, and community.
+
+---
+
+🛒 **Explore now and discover your style at StyleNest.**  
+[www.stylenest.com](http://www.stylenest.com) _(example link)_
