@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useUser } from '../context/UserContext';
 import { useCart } from '../context/CartContext';
+import { useUser } from '../context/UserContext';
 import AuthModal from './AuthModal';
 import PromoWheel from './PromoWheel';
 
@@ -42,7 +42,8 @@ const Header = () => {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <Link to="/" className="text-xl font-bold text-purple-600">
-              Fashion Store
+              <img src="src/assets/StyleNest.svg" alt="logo" className='w-6 h-6'/>
+              StyleNest
             </Link>
 
             {/* Navigation */}
